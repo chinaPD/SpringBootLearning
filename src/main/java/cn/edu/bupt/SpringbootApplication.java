@@ -21,4 +21,8 @@ public class SpringbootApplication {
         return new Person(personName, 32, "hefei");
     }
 
+    @RequestMapping(value = "/fuckss")
+    public String fuck() {
+        return "Have a fuck!";
+    }
 }
